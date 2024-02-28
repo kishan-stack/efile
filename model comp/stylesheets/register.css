@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    display: flex;
+}
+#main #left{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: end;
+}
+#left #form{
+    position: relative;
+    height: 93%;
+    width: 90%;    
+    background: #1C1D21;
+    padding-top: 160px;
+    padding-left: 140px;
+
+
+}
+
+
+button{
+    cursor: pointer;
+}
+
+#form h1{
+    font-size: 75px;
+color: white;
+}
+#form h6{
+    color: white;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+#form input{
+    margin-top: 20px;
+    padding: 9px;
+    outline: none;
+    border:none ;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+
+}
+
+#form button{
+    margin-top: 20px;
+    background-color: #93A2B5;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#form a{
+    text-decoration: none;
+    color: black;
+    background-color: #93A2B5;
+    background-color: #93A2B5;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#form #link{
+    display: flex;
+    gap: 12px;
+    margin: 10px 0px;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+
+
+#form #back{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+}
+
+#right{
+    position: relative;
+}
+
+
+
+
+.select-menu{
+    width: 380px;
+    margin: 140px auto;
+}
+.select-menu .select-btn{
+    display: flex;
+    height: 55px;
+    background: #fff;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.select-btn i{
+    font-size: 25px;
+    transition: 0.3s;
+}
+.select-menu.active .select-btn i{
+    transform: rotate(-180deg);
+}
+.select-menu .options{
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    display: none;
+}
+.select-menu.active .options{
+    display: block;
+}
+.options .option{
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+}
+.options .option:hover{
+    background: #F2F2F2;
+}
+.option i{
+    font-size: 25px;
+    margin-right: 12px;
+}
+.option .option-text{
+    font-size: 18px;
+    color: #333;
+}

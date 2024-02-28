@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    display: flex;
+}
+#main #left{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: end;
+}
+#left #form{
+    position: relative;
+    height: 93%;
+    width: 90%;    
+    background: #1C1D21;
+    padding-top: 160px;
+    padding-left: 140px;
+
+}
+
+#form h1{
+    font-size: 75px;
+color: white;
+}
+#form h6{
+    color: white;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+#form input{
+    margin-top: 20px;
+    padding: 9px;
+    outline: none;
+    border:none ;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+
+}
+
+#form button{
+    margin-top: 20px;
+    background-color: #93A2B5;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#form a{
+    text-decoration: none;
+    color: black;
+    background-color: #93A2B5;
+    background-color: #93A2B5;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#form #link{
+    display: flex;
+    gap: 12px;
+    margin: 10px 0px;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+button{
+    cursor: pointer;
+}
+#form #back{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+}
+#right{
+    position: relative;
+}

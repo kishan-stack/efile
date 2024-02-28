@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #93a2b5;
+}
+
+#nav{
+    height: 13%;
+    width: 100%;
+    background-color: #30373d;
+    border-radius: 0px 0px 20px 20px;
+    padding:  0px 20px;
+    
+}
+
+#nav #up #left a{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: 800    ;
+}
+#nav #up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav #up #right{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+#nav #up #right input{
+    height: 40px;
+    width: 400px;
+    padding: 20px;
+    outline: none;
+    border:none ;
+    /* border-bottom: 1px solid #fff; */
+    background-color: #49525b;
+    border-radius: 20px;
+    font-weight: 600;
+    
+    
+}
+#nav #up #right span{
+    position:absolute;
+    color: #fff;
+    left: 30px;
+    transition: all ease .3s;
+}
+#nav #up #right input:focus ~ span,
+#nav #up #right input:valid ~ span
+/* #nav #up #right input: ~ label */
+{
+    top: 20px;
+    font-size: 15px;
+    top: 7px;
+
+}
+#nav #up #right a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 800    ;
+}
+#nav #line{
+    height: 2px;
+    border-radius: 1px;
+
+    width: 99%;
+    background-color: #fff;
+}
+
+
+#center {
+    height: calc(100% - 15%);
+    width: 100%;
+    /* background-color: red; */
+    padding: 70px 200px;
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: space-evenly;
+}
+
+.form input{
+    /* background-color: red; */
+    text-wrap: nowrap;
+    padding: 20px;
+    margin: 20px 0px;
+    outline: none;
+    border: none;
+    
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button{
+    padding: 10px 20px;
+    background-color:#30373d;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.form #uploaddoc{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#orig{
+    display: none;
+}
+
+
+#origi{
+    display: none;
+}
+
+#nig{
+    font-size: 20px;
+    padding: 10px 0px;
+}
